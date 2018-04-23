@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Welcome to Tic Tac Toe</h1>
+        <p>Get ready to play.</p>
+
+        <button onClick="startGame()" id="b" type="button" class="btn btn-primary btn-lg" name="button">Restart</button>
+
+      </div>
+
+      <table align="center">
+        <tr>
+          <td class="cell" id="0"></td>
+          <td class="cell" id="1"></td>
+          <td class="cell" id="2"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="3"></td>
+          <td class="cell" id="4"></td>
+          <td class="cell" id="5"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="6"></td>
+          <td class="cell" id="7"></td>
+          <td class="cell" id="8"></td>
+        </tr>
+      </table>
+      <div class="endgame">
+        <div class="text"></div>
+        <button onClick="startGame()" id="b" type="button" class="btn btn-primary btn-lg" name="button">Restart</button>
+      </div>
+
+
+    </div>
+
+
+    <script src="myscript.js">
+
+    </script>
+  </body>
+</html>
